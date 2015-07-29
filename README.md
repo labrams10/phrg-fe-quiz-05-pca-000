@@ -1,9 +1,4 @@
----
-language: css
-tags: css, responsive, layout, media queries
-type: quiz
-resources: 0
----
+
 
 ## Quiz 5 - Positioning, Sprites, & Media Queries
 
