@@ -1,6 +1,6 @@
 
 
-## Quiz 5 - Positioning, Sprites, & Media Queries
+## Quiz  - Positioning, Sprites, & Media Queries
 
 
 ???
