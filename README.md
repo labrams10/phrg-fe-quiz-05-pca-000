@@ -71,4 +71,4 @@
 
 ???
 
-<a href='https://learn.co/lessons/fe-quiz-05' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-quiz-05' title=''></a> on Learn.co and start learning to code for free.</p>
