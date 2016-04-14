@@ -31,13 +31,6 @@
 ( ) Combo
 ( ) Dwarf
 
-?: Let’s say we have a sprite that is 40 pixels tall showing two event states: a normal state of the icon on top 20 pixels and the hover state of an icon on the lower 20 pixels; Using CSS the sprite is loaded as the background image of an element that is 20px tall and 20px wide. Select the most appropriate CSS declaration to reposition the sprite background image to reveal the lower half (20 pixels) of the hover state icon image.
-
-( ) background-position: -20px -20px;  
-( ) background-position: 0 20px;  
-( ) background-position: 20px 0;  
-(X) background-position: 0 -20px;
-
 ?: True or false: A meta tag with the name of viewport allows us to set the device width, initial scale, and maximum scale, so we can disable zoom in the browser.
 
 (X) TRUE  
