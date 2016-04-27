@@ -1,7 +1,8 @@
+# Positioning, Sprites, & Media Queries
 
 ???
 
-# Quiz - Positioning, Sprites, & Media Queries
+# Quiz
 
 ?: Select the most appropriate CSS declaration to set an element to absolute positioning in the top right corner.
 
@@ -64,4 +65,4 @@
 
 ???
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-quiz-05' title=''></a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/fe-quiz-05' title=''></a> on Learn.co and start learning to code for free.</p>
