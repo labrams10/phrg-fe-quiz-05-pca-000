@@ -52,8 +52,8 @@
 ?: Select the most appropriate CSS media query to change the nav font-size to 1.5 em when the screen size is less than 1024 pixels wide and greater than 480 pixels wide on any type of device.  
 
 ( ) @media only screen and (min-width: 1024px) { nav { font-size: 1.5em; } }
-( ) @media (min-width: 481px) and (max-width: 1023px) { nav { font-size: 1.5em; } }
-(X) @media all and (min-width: 480px) and (max-width: 1024px) { nav { font-size: 1.5em; } }
+(X) @media (min-width: 481px) and (max-width: 1023px) { nav { font-size: 1.5em; } }
+( ) @media all and (min-width: 480px) and (max-width: 1024px) { nav { font-size: 1.5em; } }
 ( ) @media print and (min-width: 480px) and (max-width: 1024px) { nav { font-size: 1.5em; } }
 
 ?: Select the most appropriate CSS media query to set the sections to stop floating on screen devices with an available width of 480 pixels or less.  
@@ -66,3 +66,5 @@
 ???
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/fe-quiz-05' title=''></a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/fe-quiz-05'>Responsive Layout Quiz</a> on Learn.co and start learning to code for free.</p>
