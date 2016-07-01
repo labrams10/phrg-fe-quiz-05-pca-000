@@ -1,70 +1,78 @@
-# Positioning, Sprites, & Media Queries
+# Responsive Sites and CSS3 Media Queries
 
 ???
 
-# Quiz
+# Responsive Layout Quiz
 
-?: Select the most appropriate CSS declaration to set an element to absolute positioning in the top right corner.
-
-( ) position: top right;
-(X) position: absolute; top: 0; right: 0;
-( ) position: absolute; top: 0; left: 0; 
-( ) None of the above.
-
-?: Fill in the blank: ________ positioning makes an element appear in the same place relative to the browser window even when scrolling occurs.
-
-( ) absolute
-( ) static
-(X) fixed 
-( ) inherent
-
-?: Fill in the blank: Elements with a _________ z-index will appear above other elements.
-
-( ) lower
-(X) higher
-( ) the same
-( ) negative
-
-?: Fill in the blank: Combining multiple image states into a single graphic image is called a ________ image. 
-
-(X) Sprite
-( ) Pixie 
-( ) Combo
-( ) Dwarf
-
-?: True or false: A meta tag with the name of viewport allows us to set the device width, initial scale, and maximum scale, so we can disable zoom in the browser.
-
-(X) TRUE  
-( ) FALSE
-
-?: True or false: We can link to JavaScripts like Google Codes CSS3 media queries fix or modernizer with CSS fix to create compatibility of our media queries in older browsers.
+?: Responsive site layouts are ideal because they allow for the creation of a single site as opposed to multiple iterations each tailored to a specific device's layout.
 
 (X) TRUE
 ( ) FALSE
 
-?: Select the most appropriate CSS media query to change the #wrapper to a 90% fluid width when the screen size is less than or equal to 1024 pixels wide.  
+?: What is another term for the 'desktop down' approach to creating responsive layouts, in which the site is first designed to fit desktop devices and is then scaled down for smaller screens?
 
-( ) @media only screen and (min-width: 1024px) { #wrapper { width: 90%; } }
-(X) @media only screen and (max-width: 1024px) { #wrapper { width: 90%; } }
-( ) @media all and (min-width: 1024px) { #wrapper { width: 90%; } }
-( ) @media print and (max-width: 1024px) { #wrapper { width: 90%; } }
+( ) progressive enhancement
+( ) mobile-second development
+(X) graceful degradation
+( ) regressive enhancement
 
-?: Select the most appropriate CSS media query to change the nav font-size to 1.5 em when the screen size is less than 1024 pixels wide and greater than 480 pixels wide on any type of device.  
+?: What is another term for the 'mobile up' approach to creating responsive layouts, in which the site is first designed to fit mobile devices and is then scaled up for larger screens?
 
-( ) @media only screen and (min-width: 1024px) { nav { font-size: 1.5em; } }
-(X) @media (min-width: 481px) and (max-width: 1023px) { nav { font-size: 1.5em; } }
-( ) @media all and (min-width: 480px) and (max-width: 1024px) { nav { font-size: 1.5em; } }
-( ) @media print and (min-width: 480px) and (max-width: 1024px) { nav { font-size: 1.5em; } }
+(X) progressive enhancement
+( ) mobile-second development
+( ) graceful degradation
+( ) regressive enhancement
 
-?: Select the most appropriate CSS media query to set the sections to stop floating on screen devices with an available width of 480 pixels or less.  
+?: Each CSS3 media query may only be given one conditional expression to evaluate.
 
-(X) @media only screen and (max-width: 480px) { section { float: none; } }
-( ) @media (min-width: 480px) { section { float: none; } }
-( ) @media all { section { float: none; } }
-( ) @media only screen and (width: 480px) { section { float: none; } }
+( ) TRUE
+(X) FALSE
+
+?: A `meta` tag with the name of `viewport` allows us to set the device width, initial scale, and maximum scale, so we can disable zoom in the browser.
+
+(X) TRUE
+( ) FALSE
+
+?: Select the most appropriate CSS media query statement to change the `#wrapper` selector's `width` value to `90%` on `screen` devices not wider than 1024px.
+
+( ) `@media only screen and (min-width: 1024px) { #wrapper { width: 90%; } }`
+(X) `@media only screen and (max-width: 1024px) { #wrapper { width: 90%; } }`
+( ) `@media all and (min-width: 1024px) { #wrapper { width: 90%; } }`
+( ) `@media print and (max-width: 1024px) { #wrapper { width: 90%; } }`
+
+?: Select the most appropriate CSS media query statement to change the `font-size` of `nav` elements to `1.5em` when the screen is between 480 and 1024px wide on any type of device.
+
+( ) `@media only screen and (min-width: 1024px) { nav { font-size: 1.5em; } }`
+( ) `@media (min-width: 481px) and (max-width: 1023px) { nav { font-size: 1.5em; } }`
+(X) `@media all and (min-width: 480px) and (max-width: 1024px) { nav { font-size: 1.5em; } }`
+( ) `@media print and (min-width: 480px) and (max-width: 1024px) { nav { font-size: 1.5em; } }`
+
+?: Select the most appropriate CSS media query statement to set `section` elements to stop floating on `screen` devices with an available width of 480px or less.
+
+(X) `@media only screen and (max-width: 480px) { section { float: none; } }`
+( ) `@media (min-width: 480px) { section { float: none; } }`
+( ) `@media all { section { float: none; } }`
+( ) `@media only screen and (width: 480px) { section { float: none; } }`
+
+?: It is important to make media elements (e.g., `img`, `form`, `input`, `table`, `video`, `audio`, and `iframe`) responsive by setting their `width` and `max-width` properties to `100px`.
+
+( ) TRUE
+(X) FALSE
+
+?: Select the most appropriate CSS media query statement to split the paragraph text in `article` elements into two columns on `screen` devices that are at least 480px wide.
+
+( ) `@media only screen and (max-width: 480px) { article p { column-count: 2; } }`
+( ) `@media only print and (min-width: 480px) { article p { column-count: 2; } }`
+( ) `@media only screen and (min-width: 480px) { article p { number-of-columns: 2; } }`
+(X) `@media only screen and (min-width: 480px) { article p { column-count: 2; } }`
+
+?: Assuming the `font-size` property for `body` elements is set to `100%`, for `h1` elements to `2.5em`, and for `p` elements to `1em`, select the most appropriate CSS media query statement to proportionally double the `font-size` of both `h1` and `p` elements on `screen` devices no more than 400px wide.
+
+( ) `@media only screen and (max-width: 400px) { h1, p { font-size: 5em, 2em; } }`
+( ) `@media all and (max-width: 400px) { body { font-size: 2em; } }`
+(X) `@media only screen and (max-width: 400px) { body { font-size: 200%; } }`
+( ) `@media only screen and (max-width: 400px) { html { font-size: 200%; } }`
 
 ???
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/fe-quiz-05' title=''></a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/fe-quiz-05'>Responsive Layout Quiz</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-quiz-05' title='Responsive Layout Quiz'>Responsive Layout Quiz</a> on Learn.co and start learning to code for free.</p>
