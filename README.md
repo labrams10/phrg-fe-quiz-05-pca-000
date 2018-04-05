@@ -9,7 +9,7 @@
 (X) TRUE
 ( ) FALSE
 
-?: What is another term for the 'desktop down' approach to creating responsive layouts, in which the site is first designed to fit desktop devices and is then scaled down for smaller screens?
+?: What is another term for the 'modern-first' approach to creating responsive websites in which the site is first designed to look and function the best on newer browsers, but still provide functionality and compatibility for older browsers?
 
 ( ) progressive enhancement
 ( ) mobile-second development
