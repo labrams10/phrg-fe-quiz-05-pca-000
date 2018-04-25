@@ -75,4 +75,4 @@
 
 ???
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-quiz-05' title='Responsive Layout Quiz'>Responsive Layout Quiz</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>PHRG Responsive Sites and CSS3 Media Queries</p>
